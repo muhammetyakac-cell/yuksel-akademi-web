@@ -2,13 +2,23 @@ import Header from '@/components/Header/Header';
 import Footer from '@/components/Footer/Footer';
 import Link from 'next/link';
 import styles from './blog.module.css';
+import sql from '@/lib/db';
 
-// Mock data for the blog since we don't have a CMS set up yet
-const blogPosts = [
+interface BlogPost {
+  slug: string;
+  title: string;
+  excerpt: string;
+  date: string;
+  category: string;
+  image: string;
+}
+
+// Fallback mock posts in case of database error or empty database
+const fallbackPosts: BlogPost[] = [
   {
     slug: 'yeni-nesil-sorular-nasil-cozulur',
     title: 'Yeni Nesil Matematik Soruları Nasıl Çözülür?',
-    excerpt: 'LGS ve YKS de karşımıza çıkan yeni nesil analitik sorulara nasıl yaklaşmalıyız? Temel stratejiler ve ipuçları.',
+    excerpt: 'LGS ve YKS\'de karşımıza çıkan yeni nesil analitik sorulara nasıl yaklaşmalıyız? Temel stratejiler ve ipuçları.',
     date: '10 Temmuz 2026',
     category: 'Sınav Stratejileri',
     image: 'https://images.unsplash.com/photo-1632524316719-79a0ebfde538?q=80&w=600&auto=format&fit=crop'
@@ -31,7 +41,20 @@ const blogPosts = [
   }
 ];
 
-export default function BlogPage() {
+export default async function BlogPage() {
+  let blogPosts: BlogPost[] = [];
+  
+  try {
+    blogPosts = await sql`SELECT slug, title, excerpt, date, category, image FROM posts` as BlogPost[];
+  } catch (error) {
+    console.error('Error fetching blog posts list from database:', error);
+  }
+
+  // Fallback if database fetch fails or returns empty list
+  if (!blogPosts || blogPosts.length === 0) {
+    blogPosts = fallbackPosts;
+  }
+
   return (
     <>
       <Header />
@@ -71,3 +94,4 @@ export default function BlogPage() {
     </>
   );
 }
+
