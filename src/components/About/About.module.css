@@ -38,7 +38,7 @@
   position: relative;
   width: 100%;
   aspect-ratio: 4/5;
-  background: url('https://images.unsplash.com/photo-1513258496099-48168024aec0?q=80&w=1000&auto=format&fit=crop') center/cover;
+  background: url('https://images.unsplash.com/photo-1580894732444-8fecef2271ff?q=80&w=1000&auto=format&fit=crop') center/cover;
   border-radius: 24px;
   z-index: 1;
   box-shadow: var(--shadow-lg);
