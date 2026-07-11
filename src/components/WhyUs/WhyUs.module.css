@@ -1,0 +1,101 @@
+.whyUs {
+  padding: 100px 0;
+  background-color: var(--primary);
+  color: var(--white);
+  position: relative;
+  background-image: radial-gradient(circle at right, rgba(197, 160, 89, 0.15) 0%, transparent 60%);
+}
+
+.header {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 4rem;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--secondary-light);
+  border-radius: 100px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.header h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: var(--white);
+}
+
+.subtitle {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 2.5rem;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(197, 160, 89, 0.5);
+  transform: translateY(-5px);
+}
+
+.cardNumber {
+  font-family: 'Playfair Display', serif;
+  position: absolute;
+  top: -20px;
+  right: -10px;
+  font-size: 8rem;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.05);
+  line-height: 1;
+  transition: color 0.3s ease;
+}
+
+.card:hover .cardNumber {
+  color: rgba(197, 160, 89, 0.1);
+}
+
+.card h3 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.5rem;
+  color: var(--secondary);
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.card p {
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.7;
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .header h2 {
+    font-size: 2.5rem;
+  }
+}

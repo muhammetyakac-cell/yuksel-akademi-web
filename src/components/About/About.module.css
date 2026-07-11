@@ -1,0 +1,188 @@
+.about {
+  padding: 100px 0;
+  background-color: var(--bg-color);
+  position: relative;
+  overflow: hidden;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: center;
+}
+
+.imageColumn {
+  position: relative;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.imageDecoration {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  width: 100%;
+  height: 100%;
+  border: 2px solid var(--secondary);
+  border-radius: 24px;
+  z-index: 0;
+}
+
+.teacherImage {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4/5;
+  background: url('https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1000&auto=format&fit=crop') center/cover;
+  border-radius: 24px;
+  z-index: 1;
+  box-shadow: var(--shadow-lg);
+}
+
+.experienceBadge {
+  position: absolute;
+  bottom: 40px;
+  right: -30px;
+  background: var(--white);
+  padding: 1.5rem;
+  border-radius: 20px;
+  box-shadow: var(--shadow-lg);
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid rgba(197, 160, 89, 0.2);
+  animation: float 4s ease-in-out infinite;
+}
+
+.years {
+  font-family: 'Outfit', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--primary);
+  line-height: 1;
+}
+
+.text {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.textColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.badge {
+  display: inline-block;
+  align-self: flex-start;
+  padding: 0.5rem 1rem;
+  background: rgba(197, 160, 89, 0.1);
+  color: var(--secondary-dark);
+  border-radius: 100px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.textColumn h2 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.lead {
+  font-size: 1.25rem;
+  color: var(--primary);
+  font-weight: 500;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.description {
+  color: var(--text-muted);
+  font-size: 1.05rem;
+  margin-bottom: 2.5rem;
+  line-height: 1.8;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.feature {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+  background: var(--white);
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid rgba(26, 54, 93, 0.05);
+  transition: all 0.3s ease;
+}
+
+.feature:hover {
+  transform: translateX(10px);
+  box-shadow: var(--shadow-md);
+  border-color: rgba(197, 160, 89, 0.3);
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  background: rgba(26, 54, 93, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  border-radius: 12px;
+  color: var(--primary);
+}
+
+.feature h4 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+  color: var(--primary);
+}
+
+.feature p {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-bottom: 0;
+}
+
+@media (max-width: 1024px) {
+  .content {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+  
+  .imageColumn {
+    padding: 0 2rem;
+  }
+  
+  .experienceBadge {
+    right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .textColumn h2 {
+    font-size: 2.5rem;
+  }
+  
+  .imageDecoration {
+    display: none;
+  }
+}

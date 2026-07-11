@@ -1,10 +1,21 @@
-import styles from './page.module.css';
+import Header from '@/components/Header/Header';
+import Hero from '@/components/Hero/Hero';
+import About from '@/components/About/About';
+import Services from '@/components/Services/Services';
+import WhyUs from '@/components/WhyUs/WhyUs';
+import Footer from '@/components/Footer/Footer';
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <h1>Yüksel Akademi</h1>
-      <p>Matematik Özel Ders</p>
-    </main>
+    <>
+      <Header />
+      <main>
+        <Hero />
+        <About />
+        <Services />
+        <WhyUs />
+      </main>
+      <Footer />
+    </>
   );
 }

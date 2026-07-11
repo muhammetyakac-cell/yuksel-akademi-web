@@ -1,0 +1,119 @@
+.footer {
+  background-color: var(--primary-dark);
+  color: var(--white);
+  padding-top: 80px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 4rem;
+  margin-bottom: 60px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.logoYk {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 800;
+  font-size: 2.5rem;
+  color: var(--white);
+  line-height: 1;
+}
+
+.gold {
+  color: var(--secondary);
+}
+
+.logoText {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--white);
+  line-height: 1.2;
+}
+
+.subtitle {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: var(--secondary-light);
+  letter-spacing: 1px;
+}
+
+.brandDesc {
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.8;
+  max-width: 400px;
+}
+
+.footer h3 {
+  font-size: 1.25rem;
+  color: var(--white);
+  margin-bottom: 1.5rem;
+  font-family: 'Outfit', sans-serif;
+}
+
+.links ul, .contact ul {
+  list-style: none;
+}
+
+.links li, .contact li {
+  margin-bottom: 1rem;
+}
+
+.links a {
+  color: rgba(255, 255, 255, 0.7);
+  transition: color 0.3s ease;
+}
+
+.links a:hover {
+  color: var(--secondary);
+}
+
+.contact li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.contact a {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.contact a:hover {
+  color: var(--secondary);
+}
+
+.icon {
+  font-size: 1.25rem;
+}
+
+.bottom {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 1.5rem 0;
+  text-align: center;
+}
+
+.bottom p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.875rem;
+}
+
+@media (max-width: 768px) {
+  .content {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}
