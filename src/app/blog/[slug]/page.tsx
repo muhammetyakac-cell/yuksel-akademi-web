@@ -136,7 +136,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     notFound();
   }
 
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://yukselakademi.com';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.yukselakademi.blog';
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -149,7 +149,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     'author': {
       '@type': 'Person',
       'name': 'Gülçin Demir',
-      'url': 'https://yukselakademi.com'
+      'url': 'https://www.yukselakademi.blog'
     },
     'publisher': {
       '@type': 'Organization',

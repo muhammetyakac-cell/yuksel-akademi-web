@@ -44,7 +44,7 @@ export default function YksHizmetPage() {
     'provider': {
       '@type': 'LocalBusiness',
       'name': 'Yüksel Akademi',
-      'image': 'https://yukselakademi.com/images/logo.png',
+      'image': 'https://www.yukselakademi.blog/images/logo.png',
       'address': {
         '@type': 'PostalAddress',
         'addressLocality': 'İzmir',

@@ -9,12 +9,12 @@ export default function Home() {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
-    '@id': 'https://yukselakademi.com/#localbusiness',
+    '@id': 'https://www.yukselakademi.blog/#localbusiness',
     'name': 'Yüksel Akademi',
     'description': 'İlkokul, ortaokul ve lise matematik özel ders. Dokuz Eylül Üniversitesi İlköğretim Matematik Öğretmenliği mezunu Gülçin Demir ile matematikte yükselişe geçin.',
-    'url': 'https://yukselakademi.com',
+    'url': 'https://www.yukselakademi.blog',
     'telephone': '+905464749802',
-    'email': 'info@yukselakademi.com',
+    'email': 'info@yukselakademi.blog',
     'address': {
       '@type': 'PostalAddress',
       'addressLocality': 'İzmir',

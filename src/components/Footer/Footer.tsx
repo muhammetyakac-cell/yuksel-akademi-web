@@ -37,7 +37,7 @@ export default function Footer() {
             </li>
             <li>
               <span className={styles.icon}>✉️</span>
-              <a href="mailto:info@yukselakademi.com">info@yukselakademi.com</a>
+              <a href="mailto:info@yukselakademi.blog">info@yukselakademi.blog</a>
             </li>
             <li>
               <span className={styles.icon}>📞</span>
