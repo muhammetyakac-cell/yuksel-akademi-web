@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from './Services.module.css';
 
 const services = [
@@ -5,20 +6,23 @@ const services = [
     title: 'İlkokul Matematik',
     icon: '✏️',
     description: 'Matematiğin temellerini sevdirerek atan, oyunlaştırılmış ve görsel destekli özel ders programı.',
-    features: ['Temel Kavramlar', 'Zihinsel İşlem Becerisi', 'Görsel Matematik']
+    features: ['Temel Kavramlar', 'Zihinsel İşlem Becerisi', 'Görsel Matematik'],
+    link: '/hizmetler/ilkokul-matematik-ozel-ders'
   },
   {
     title: 'Ortaokul & LGS',
     icon: '🎯',
     description: 'Okul başarısını artırmaya yönelik ve LGS yeni nesil soru tiplerine tam uyumlu yoğunlaştırılmış çalışma.',
     features: ['Yeni Nesil Sorular', 'Okul Sınavlarına Hazırlık', 'LGS Stratejileri'],
-    highlighted: true
+    highlighted: true,
+    link: '/hizmetler/lgs-ortaokul-matematik-ozel-ders'
   },
   {
     title: 'Lise & YKS',
     icon: '🚀',
     description: 'TYT ve AYT müfredatına tam hakimiyet, analitik düşünme becerisini geliştiren ileri seviye matematik.',
-    features: ['TYT-AYT Hazırlık', 'Analitik Geometri', 'Deneme Çözümleri']
+    features: ['TYT-AYT Hazırlık', 'Analitik Geometri', 'Deneme Çözümleri'],
+    link: '/hizmetler/yks-lise-matematik-ozel-ders'
   }
 ];
 
@@ -55,9 +59,9 @@ export default function Services() {
                 ))}
               </ul>
               
-              <a href="#iletisim" className={styles.cardBtn}>
+              <Link href={service.link} className={styles.cardBtn}>
                 Detaylı Bilgi
-              </a>
+              </Link>
             </div>
           ))}
         </div>
