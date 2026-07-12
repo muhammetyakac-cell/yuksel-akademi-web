@@ -6,6 +6,17 @@ import styles from '../hizmet-sayfalari.module.css';
 export const metadata: Metadata = {
   title: 'İzmir LGS Matematik Özel Ders | Ortaokul Matematik Hazırlık',
   description: 'LGS matematik hazırlığında İzmir\'in en deneyimli hocası Gülçin Demir ile Yüksel Akademi farkını yaşayın. Buca, Bornova, Karşıyaka\'da yeni nesil soru odaklı özel dersler.',
+  alternates: {
+    canonical: 'https://www.yukselakademi.blog/hizmetler/lgs-ortaokul-matematik-ozel-ders',
+  },
+  openGraph: {
+    title: 'İzmir LGS Matematik Özel Ders | Ortaokul Matematik Hazırlık',
+    description: 'LGS matematik hazırlığında İzmir\'in en deneyimli hocası Gülçin Demir ile Yüksel Akademi farkını yaşayın. Buca, Bornova, Karşıyaka\'da yeni nesil soru odaklı özel dersler.',
+    url: 'https://www.yukselakademi.blog/hizmetler/lgs-ortaokul-matematik-ozel-ders',
+    siteName: 'Yüksel Akademi',
+    locale: 'tr_TR',
+    type: 'website',
+  }
 };
 
 export default function LgsHizmetPage() {

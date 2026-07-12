@@ -6,6 +6,17 @@ import styles from '../hizmet-sayfalari.module.css';
 export const metadata: Metadata = {
   title: 'İzmir YKS & Lise Matematik Özel Ders | Yüksel Akademi',
   description: 'İzmir YKS matematik özel ders ve Bornova AYT matematik takviyesi için tecrübeli eğitmen Gülçin Demir (Dokuz Eylül Üniversitesi mezunu) ile birebir matematik İzmir dersleri.',
+  alternates: {
+    canonical: 'https://www.yukselakademi.blog/hizmetler/yks-lise-matematik-ozel-ders',
+  },
+  openGraph: {
+    title: 'İzmir YKS & Lise Matematik Özel Ders | Yüksel Akademi',
+    description: 'İzmir YKS matematik özel ders ve Bornova AYT matematik takviyesi için tecrübeli eğitmen Gülçin Demir (Dokuz Eylül Üniversitesi mezunu) ile birebir matematik İzmir dersleri.',
+    url: 'https://www.yukselakademi.blog/hizmetler/yks-lise-matematik-ozel-ders',
+    siteName: 'Yüksel Akademi',
+    locale: 'tr_TR',
+    type: 'website',
+  }
 };
 
 export default function YksHizmetPage() {

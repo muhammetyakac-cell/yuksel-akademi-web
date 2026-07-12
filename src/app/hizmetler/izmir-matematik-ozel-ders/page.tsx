@@ -6,6 +6,17 @@ import styles from '../hizmet-sayfalari.module.css';
 export const metadata: Metadata = {
   title: 'İzmir Birebir Matematik Ders & Mentörlük | Yüksel Akademi',
   description: 'İzmir genelinde birebir matematik özel ders ve eğitim koçluğu. Dokuz Eylül Üniversitesi mezunu Gülçin Demir ile Bornova ve tüm İzmir\'de LGS, YKS ve okul takviye dersleri.',
+  alternates: {
+    canonical: 'https://www.yukselakademi.blog/hizmetler/izmir-matematik-ozel-ders',
+  },
+  openGraph: {
+    title: 'İzmir Birebir Matematik Ders & Mentörlük | Yüksel Akademi',
+    description: 'İzmir genelinde birebir matematik özel ders ve eğitim koçluğu. Dokuz Eylül Üniversitesi mezunu Gülçin Demir ile Bornova ve tüm İzmir\'de LGS, YKS ve okul takviye dersleri.',
+    url: 'https://www.yukselakademi.blog/hizmetler/izmir-matematik-ozel-ders',
+    siteName: 'Yüksel Akademi',
+    locale: 'tr_TR',
+    type: 'website',
+  }
 };
 
 export default function İzmirGenelHizmetPage() {

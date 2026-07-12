@@ -1,8 +1,25 @@
+import type { Metadata } from 'next';
 import Header from '@/components/Header/Header';
 import Footer from '@/components/Footer/Footer';
 import Link from 'next/link';
 import styles from './blog.module.css';
 import sql from '@/lib/db';
+
+export const metadata: Metadata = {
+  title: 'Matematik Hazırlık ve Özel Ders Blogu | Yüksel Akademi',
+  description: 'LGS, YKS, Geometri ve popüler matematik kültürüne dair en güncel makaleler, çalışma taktikleri ve İzmir yerel özel ders önerileri.',
+  alternates: {
+    canonical: 'https://www.yukselakademi.blog/blog',
+  },
+  openGraph: {
+    title: 'Matematik Hazırlık ve Özel Ders Blogu | Yüksel Akademi',
+    description: 'LGS, YKS, Geometri ve popüler matematik kültürüne dair en güncel makaleler, çalışma taktikleri ve İzmir yerel özel ders önerileri.',
+    url: 'https://www.yukselakademi.blog/blog',
+    siteName: 'Yüksel Akademi',
+    locale: 'tr_TR',
+    type: 'website',
+  }
+};
 
 interface BlogPost {
   slug: string;

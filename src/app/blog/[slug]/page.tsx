@@ -125,6 +125,23 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `${post.title} | Yüksel Akademi`,
     description: post.excerpt,
+    alternates: {
+      canonical: `https://www.yukselakademi.blog/blog/${post.slug}`,
+    },
+    openGraph: {
+      title: `${post.title} | Yüksel Akademi`,
+      description: post.excerpt,
+      url: `https://www.yukselakademi.blog/blog/${post.slug}`,
+      siteName: 'Yüksel Akademi',
+      locale: 'tr_TR',
+      type: 'article',
+      images: [
+        {
+          url: post.image,
+          alt: post.title,
+        }
+      ]
+    }
   };
 }
 

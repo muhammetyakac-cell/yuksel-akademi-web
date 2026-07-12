@@ -6,6 +6,17 @@ import styles from '../hizmet-sayfalari.module.css';
 export const metadata: Metadata = {
   title: 'İzmir İlkokul Matematik Özel Ders | Yüksel Akademi Gülçin Demir',
   description: 'İzmir\'de ilkokul öğrencileri için kişiselleştirilmiş matematik özel dersleri. Buca, Bornova, Karşıyaka ve tüm ilçelerde, Gülçin Demir eşliğinde matematiği sevdiren metotlar.',
+  alternates: {
+    canonical: 'https://www.yukselakademi.blog/hizmetler/ilkokul-matematik-ozel-ders',
+  },
+  openGraph: {
+    title: 'İzmir İlkokul Matematik Özel Ders | Yüksel Akademi Gülçin Demir',
+    description: 'İzmir\'de ilkokul öğrencileri için kişiselleştirilmiş matematik özel dersleri. Buca, Bornova, Karşıyaka ve tüm ilçelerde, Gülçin Demir eşliğinde matematiği sevdiren metotlar.',
+    url: 'https://www.yukselakademi.blog/hizmetler/ilkokul-matematik-ozel-ders',
+    siteName: 'Yüksel Akademi',
+    locale: 'tr_TR',
+    type: 'website',
+  }
 };
 
 export default function IlkokulHizmetPage() {
