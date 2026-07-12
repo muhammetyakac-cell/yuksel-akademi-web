@@ -41,7 +41,7 @@ export default function Footer() {
             </li>
             <li>
               <span className={styles.icon}>📞</span>
-              <a href="tel:+905550000000">+90 (555) 000 00 00</a>
+              <a href="tel:+905464749802">+90 (546) 474 98 02</a>
             </li>
           </ul>
         </div>

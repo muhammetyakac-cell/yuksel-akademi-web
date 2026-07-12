@@ -128,7 +128,7 @@ export default function LgsHizmetPage() {
           <div className="container">
             <h2>LGS Yolculuğunda Çocuğunuzun Başarısını Destekleyin</h2>
             <p>Gülçin Demir rehberliğinde LGS matematiğinde yüksek netleri ve tam puanı hedefleyin.</p>
-            <a href="tel:+905550000000" className={styles.bottomCtaBtn}>
+            <a href="tel:+905464749802" className={styles.bottomCtaBtn}>
               Detaylı Bilgi & İletişim
             </a>
           </div>

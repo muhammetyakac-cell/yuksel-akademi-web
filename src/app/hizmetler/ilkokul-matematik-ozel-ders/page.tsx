@@ -128,7 +128,7 @@ export default function IlkokulHizmetPage() {
           <div className="container">
             <h2>Çocuğunuzun Matematik Temelini Şansa Bırakmayın</h2>
             <p>Gülçin Demir rehberliğinde matematiği sevdiren eğitim metotlarımızla hemen tanışın.</p>
-            <a href="tel:+905550000000" className={styles.bottomCtaBtn}>
+            <a href="tel:+905464749802" className={styles.bottomCtaBtn}>
               Bizimle İletişime Geçin
             </a>
           </div>

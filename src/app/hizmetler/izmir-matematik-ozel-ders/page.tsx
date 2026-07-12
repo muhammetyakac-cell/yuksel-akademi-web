@@ -123,7 +123,7 @@ export default function İzmirGenelHizmetPage() {
           <div className="container">
             <h2>İzmir'de Başarı İçin Profesyonel Yol Arkadaşı Edinin</h2>
             <p>Gülçin Demir ile hedeflerinize emin adımlarla yürüyün.</p>
-            <a href="tel:+905550000000" className={styles.bottomCtaBtn}>
+            <a href="tel:+905464749802" className={styles.bottomCtaBtn}>
               Detaylı Bilgi & İletişim
             </a>
           </div>

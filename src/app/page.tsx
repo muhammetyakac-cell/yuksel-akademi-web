@@ -13,7 +13,7 @@ export default function Home() {
     'name': 'Yüksel Akademi',
     'description': 'İlkokul, ortaokul ve lise matematik özel ders. Dokuz Eylül Üniversitesi İlköğretim Matematik Öğretmenliği mezunu Gülçin Demir ile matematikte yükselişe geçin.',
     'url': 'https://yukselakademi.com',
-    'telephone': '+905550000000',
+    'telephone': '+905464749802',
     'email': 'info@yukselakademi.com',
     'address': {
       '@type': 'PostalAddress',

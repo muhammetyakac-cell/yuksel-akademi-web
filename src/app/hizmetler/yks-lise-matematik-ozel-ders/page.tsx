@@ -124,7 +124,7 @@ export default function YksHizmetPage() {
           <div className="container">
             <h2>YKS Matematikte Hedeflerinizi Şansa Bırakmayın</h2>
             <p>Gülçin Demir liderliğinde üniversite hedeflerinize giden yolu birlikte çizelim.</p>
-            <a href="tel:+905550000000" className={styles.bottomCtaBtn}>
+            <a href="tel:+905464749802" className={styles.bottomCtaBtn}>
               Bizimle İletişime Geçin
             </a>
           </div>
