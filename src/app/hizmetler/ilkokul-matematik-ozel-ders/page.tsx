@@ -4,16 +4,16 @@ import Footer from '@/components/Footer/Footer';
 import styles from '../hizmet-sayfalari.module.css';
 
 export const metadata: Metadata = {
-  title: 'İzmir İlkokul Matematik Özel Ders | Yüksel Akademi Gülçin Demir',
+  title: 'İzmir İlkokul Matematik Özel Ders | Yükselİn Akademi Gülçin Demir',
   description: 'İzmir\'de ilkokul öğrencileri için kişiselleştirilmiş matematik özel dersleri. Buca, Bornova, Karşıyaka ve tüm ilçelerde, Gülçin Demir eşliğinde matematiği sevdiren metotlar.',
   alternates: {
     canonical: 'https://www.yukselakademi.blog/hizmetler/ilkokul-matematik-ozel-ders',
   },
   openGraph: {
-    title: 'İzmir İlkokul Matematik Özel Ders | Yüksel Akademi Gülçin Demir',
+    title: 'İzmir İlkokul Matematik Özel Ders | Yükselİn Akademi Gülçin Demir',
     description: 'İzmir\'de ilkokul öğrencileri için kişiselleştirilmiş matematik özel dersleri. Buca, Bornova, Karşıyaka ve tüm ilçelerde, Gülçin Demir eşliğinde matematiği sevdiren metotlar.',
     url: 'https://www.yukselakademi.blog/hizmetler/ilkokul-matematik-ozel-ders',
-    siteName: 'Yüksel Akademi',
+    siteName: 'Yükselİn Akademi',
     locale: 'tr_TR',
     type: 'website',
   }
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 
 export default function IlkokulHizmetPage() {
   const data = {
-    title: 'İzmir İlkokul Matematik Özel Ders | Yüksel Akademi Gülçin Demir',
+    title: 'İzmir İlkokul Matematik Özel Ders | Yükselİn Akademi Gülçin Demir',
     heroTitle: 'İzmir İlkokul Matematik Özel Ders – Matematiğin Eğlenceli Dünyasını Keşfedin!',
     heroSubtitle: 'Buca, Bornova, Karşıyaka ve İzmir genelinde birebir derslerle, ilkokul öğrencilerimizin matematik temelini oyunlaştırılmış ve kalıcı yöntemlerle güçlendiriyoruz.',
     curriculum: [
@@ -57,7 +57,7 @@ export default function IlkokulHizmetPage() {
     'name': 'İzmir İlkokul Matematik Özel Ders',
     'provider': {
       '@type': 'LocalBusiness',
-      'name': 'Yüksel Akademi',
+      'name': 'Yükselİn Akademi',
       'image': 'https://www.yukselakademi.blog/images/logo.png',
       'address': {
         '@type': 'PostalAddress',
@@ -91,7 +91,7 @@ export default function IlkokulHizmetPage() {
               dangerouslySetInnerHTML={{
                 __html: `
                   <h3>Matematik Temellerini İzmir'in En İyi Eğitmeniyle Güçlendirin</h3>
-                  <p>İlkokul dönemi, çocukların akademik hayatlarındaki en kritik virajlardan biridir. Bu süreçte karşılaşılan matematik kavramları, gelecekteki LGS ve YKS gibi büyük sınavların temel taşlarını oluşturur. <strong>İzmir ilkokul matematik özel ders</strong> arayışınızda, Yüksel Akademi kurucusu tecrübeli eğitmenimiz Gülçin Demir liderliğinde çocuklarınıza matematiği sevdirmeyi hedefliyoruz. Buca, Bornova, Karşıyaka gibi İzmir'in her köşesinden öğrencilerimize özel hazırladığımız müfredat ile onların soyut kavramları somutlaştırarak öğrenmelerini sağlıyoruz.</p>
+                  <p>İlkokul dönemi, çocukların akademik hayatlarındaki en kritik virajlardan biridir. Bu süreçte karşılaşılan matematik kavramları, gelecekteki LGS ve YKS gibi büyük sınavların temel taşlarını oluşturur. <strong>İzmir ilkokul matematik özel ders</strong> arayışınızda, Yükselİn Akademi kurucusu tecrübeli eğitmenimiz Gülçin Demir liderliğinde çocuklarınıza matematiği sevdirmeyi hedefliyoruz. Buca, Bornova, Karşıyaka gibi İzmir'in her köşesinden öğrencilerimize özel hazırladığımız müfredat ile onların soyut kavramları somutlaştırarak öğrenmelerini sağlıyoruz.</p>
 
                   <h3>Kişiselleştirilmiş Öğrenme Metotları ve Dikkat Gelişimi</h3>
                   <p>Her çocuğun öğrenme hızı ve bilişsel gelişimi farklıdır. Klasik sınıf ortamlarında gözden kaçabilen eksikler, birebir özel derslerde hızla tespit edilerek kapatılır. İzmir genelindeki özel derslerimizde, öğrencimizin analitik düşünme becerisini artırmak için görsel materyaller, eğitici matematik oyunları ve günlük hayatla ilişkilendirilmiş problemler kullanıyoruz. Bornova ilkokul matematik özel ders ve Buca matematik özel ders programlarımız sayesinde öğrencilerin derse olan odağı en üst seviyeye çıkarılmaktadır.</p>
@@ -100,7 +100,7 @@ export default function IlkokulHizmetPage() {
                   <p>Özellikle ilkokul çağındaki çocukların kendi güvenli alanlarında ders çalışmaları verimliliği doğrudan artırır. Karşıyaka ilkokul matematik özel ders seçeneklerimiz başta olmak üzere, İzmir'in dört bir yanında velilerimizin taleplerine uygun çalışma ortamları sunuyoruz. Gülçin Demir yönetimindeki ders süreçlerimizde sadece akademik başarıyı değil, aynı zamanda öğrencilerin özgüven kazanmalarını ve problem çözme cesareti göstermelerini de önemsiyoruz.</p>
 
                   <h3>Yeni Nesil Sorulara Erken Yaşta Hazırlık</h3>
-                  <p>Eğitim sistemimizin ve merkezi sınavların temelini oluşturan yeni nesil sorular, okuduğunu anlama ve mantık yürütme becerisini ölçmektedir. İlkokul seviyesinde bu becerileri kazanmak, ortaokula geçişte öğrencilere muazzam bir avantaj sağlar. Birebir rehberlik desteğimizle velilerimizi de sürecin içerisine katarak düzenli geri bildirimler paylaşıyor ve öğrencimizin gelişimini adım adım izliyoruz. Yüksel Akademi farkıyla çocuklarınızın matematik dersini bir yük olarak değil, keyifli bir bulmaca gibi görmesini sağlayın.</p>
+                  <p>Eğitim sistemimizin ve merkezi sınavların temelini oluşturan yeni nesil sorular, okuduğunu anlama ve mantık yürütme becerisini ölçmektedir. İlkokul seviyesinde bu becerileri kazanmak, ortaokula geçişte öğrencilere muazzam bir avantaj sağlar. Birebir rehberlik desteğimizle velilerimizi de sürecin içerisine katarak düzenli geri bildirimler paylaşıyor ve öğrencimizin gelişimini adım adım izliyoruz. Yükselİn Akademi farkıyla çocuklarınızın matematik dersini bir yük olarak değil, keyifli bir bulmaca gibi görmesini sağlayın.</p>
                 `
               }}
             />

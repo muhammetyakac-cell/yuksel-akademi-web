@@ -6,16 +6,16 @@ import styles from './blog.module.css';
 import sql from '@/lib/db';
 
 export const metadata: Metadata = {
-  title: 'Matematik Hazırlık ve Özel Ders Blogu | Yüksel Akademi',
+  title: 'Matematik Hazırlık ve Özel Ders Blogu | Yükselİn Akademi',
   description: 'LGS, YKS, Geometri ve popüler matematik kültürüne dair en güncel makaleler, çalışma taktikleri ve İzmir yerel özel ders önerileri.',
   alternates: {
     canonical: 'https://www.yukselakademi.blog/blog',
   },
   openGraph: {
-    title: 'Matematik Hazırlık ve Özel Ders Blogu | Yüksel Akademi',
+    title: 'Matematik Hazırlık ve Özel Ders Blogu | Yükselİn Akademi',
     description: 'LGS, YKS, Geometri ve popüler matematik kültürüne dair en güncel makaleler, çalışma taktikleri ve İzmir yerel özel ders önerileri.',
     url: 'https://www.yukselakademi.blog/blog',
-    siteName: 'Yüksel Akademi',
+    siteName: 'Yükselİn Akademi',
     locale: 'tr_TR',
     type: 'website',
   }

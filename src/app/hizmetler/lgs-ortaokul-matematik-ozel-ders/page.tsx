@@ -5,15 +5,15 @@ import styles from '../hizmet-sayfalari.module.css';
 
 export const metadata: Metadata = {
   title: 'İzmir LGS Matematik Özel Ders | Ortaokul Matematik Hazırlık',
-  description: 'LGS matematik hazırlığında İzmir\'in en deneyimli hocası Gülçin Demir ile Yüksel Akademi farkını yaşayın. Buca, Bornova, Karşıyaka\'da yeni nesil soru odaklı özel dersler.',
+  description: 'LGS matematik hazırlığında İzmir\'in en deneyimli hocası Gülçin Demir ile Yükselİn Akademi farkını yaşayın. Buca, Bornova, Karşıyaka\'da yeni nesil soru odaklı özel dersler.',
   alternates: {
     canonical: 'https://www.yukselakademi.blog/hizmetler/lgs-ortaokul-matematik-ozel-ders',
   },
   openGraph: {
     title: 'İzmir LGS Matematik Özel Ders | Ortaokul Matematik Hazırlık',
-    description: 'LGS matematik hazırlığında İzmir\'in en deneyimli hocası Gülçin Demir ile Yüksel Akademi farkını yaşayın. Buca, Bornova, Karşıyaka\'da yeni nesil soru odaklı özel dersler.',
+    description: 'LGS matematik hazırlığında İzmir\'in en deneyimli hocası Gülçin Demir ile Yükselİn Akademi farkını yaşayın. Buca, Bornova, Karşıyaka\'da yeni nesil soru odaklı özel dersler.',
     url: 'https://www.yukselakademi.blog/hizmetler/lgs-ortaokul-matematik-ozel-ders',
-    siteName: 'Yüksel Akademi',
+    siteName: 'Yükselİn Akademi',
     locale: 'tr_TR',
     type: 'website',
   }
@@ -57,7 +57,7 @@ export default function LgsHizmetPage() {
     'name': 'İzmir LGS & Ortaokul Matematik Özel Ders',
     'provider': {
       '@type': 'LocalBusiness',
-      'name': 'Yüksel Akademi',
+      'name': 'Yükselİn Akademi',
       'image': 'https://www.yukselakademi.blog/images/logo.png',
       'address': {
         '@type': 'PostalAddress',
@@ -91,7 +91,7 @@ export default function LgsHizmetPage() {
               dangerouslySetInnerHTML={{
                 __html: `
                   <h3>LGS Matematikte Yeni Nesil Soruların Şifresini Çözün</h3>
-                  <p>LGS (Liselere Geçiş Sistemi) hazırlık sürecinde öğrencilerin en çok zorlandığı ve sınav sonucunu en çok etkileyen ders tartışmasız matematiktir. <strong>İzmir LGS matematik özel ders</strong> programlarımız, öğrencilerin bu zorluğu aşması ve hedefledikleri fen liseleri ile nitelikli Anadolu liselerini kazanmaları için özel olarak tasarlanmıştır. Yüksel Akademi bünyesinde uzman eğitmenimiz Gülçin Demir liderliğinde, yeni nesil soruların karmaşık yapısını basit adımlara indirgiyor ve öğrencilerimize analitik düşünme yeteneği kazandırıyoruz.</p>
+                  <p>LGS (Liselere Geçiş Sistemi) hazırlık sürecinde öğrencilerin en çok zorlandığı ve sınav sonucunu en çok etkileyen ders tartışmasız matematiktir. <strong>İzmir LGS matematik özel ders</strong> programlarımız, öğrencilerin bu zorluğu aşması ve hedefledikleri fen liseleri ile nitelikli Anadolu liselerini kazanmaları için özel olarak tasarlanmıştır. Yükselİn Akademi bünyesinde uzman eğitmenimiz Gülçin Demir liderliğinde, yeni nesil soruların karmaşık yapısını basit adımlara indirgiyor ve öğrencilerimize analitik düşünme yeteneği kazandırıyoruz.</p>
 
                   <h3>Buca, Bornova ve Karşıyaka'da Başarı Odaklı Birebir Takip</h3>
                   <p>Matematik başarısı sadece ders saatleriyle sınırlı değildir. Doğru kaynak seçimi, düzenli deneme sınavları analizi ve disiplinli bir ödev takibi başarının vazgeçilmez unsurlarıdır. Buca LGS matematik özel ders ve Bornova LGS özel ders çalışmalarımızda, her öğrenciye özel haftalık ders çalışma programı hazırlıyoruz. Öğrencinin eksik olduğu kazanımları nokta atışı tespit ederek, gereksiz zaman kayıplarının önüne geçiyor ve net artışını en kısa sürede gözlemliyoruz.</p>
@@ -100,7 +100,7 @@ export default function LgsHizmetPage() {
                   <p>LGS sadece bilgiyi değil, aynı zamanda zamanı doğru yönetmeyi ve stres altında doğru karar verebilmeyi ölçer. Karşıyaka LGS matematik özel ders seanslarımızda, ders anlatımının yanı sıra sınav stratejilerine de odaklanıyoruz. Öğrencilerimize turlama tekniği, şık eleme yöntemleri ve sınav anında odaklanmayı sürdürme gibi pratik becerileri kazandırıyoruz. Gülçin Demir'in tecrübeli rehberliğiyle öğrencilerimiz kendilerini yalnız hissetmiyor ve sınava tam bir özgüvenle hazırlanıyor.</p>
 
                   <h3>Ortaokul Ara Sınıflarında Güçlü Temel Oluşturma</h3>
-                  <p>LGS'de yüksek netler hedefleyen öğrencilerin 5, 6 ve 7. sınıflardaki temel konuları çok iyi kavramış olması gerekir. Ara sınıflarda yapılan düzenli takviyeler, 8. sınıfa gelindiğinde LGS müfredatının çok daha rahat ve stressiz öğrenilmesini sağlar. Yüksel Akademi'nin uzman kadrosu ve öğrenci merkezli yaklaşımıyla, İzmir genelindeki velilerimize çocuklarının geleceğini güvence altına alacak profesyonel bir eğitim desteği sunuyoruz. Hayalinizdeki liseye giden yolda ilk ve en sağlam adımı bizimle atın.</p>
+                  <p>LGS'de yüksek netler hedefleyen öğrencilerin 5, 6 ve 7. sınıflardaki temel konuları çok iyi kavramış olması gerekir. Ara sınıflarda yapılan düzenli takviyeler, 8. sınıfa gelindiğinde LGS müfredatının çok daha rahat ve stressiz öğrenilmesini sağlar. Yükselİn Akademi'nin uzman kadrosu ve öğrenci merkezli yaklaşımıyla, İzmir genelindeki velilerimize çocuklarının geleceğini güvence altına alacak profesyonel bir eğitim desteği sunuyoruz. Hayalinizdeki liseye giden yolda ilk ve en sağlam adımı bizimle atın.</p>
                 `
               }}
             />

@@ -4,16 +4,16 @@ import Footer from '@/components/Footer/Footer';
 import styles from '../hizmet-sayfalari.module.css';
 
 export const metadata: Metadata = {
-  title: 'İzmir Birebir Matematik Ders & Mentörlük | Yüksel Akademi',
+  title: 'İzmir Birebir Matematik Ders & Mentörlük | Yükselİn Akademi',
   description: 'İzmir genelinde birebir matematik özel ders ve eğitim koçluğu. Dokuz Eylül Üniversitesi mezunu Gülçin Demir ile Bornova ve tüm İzmir\'de LGS, YKS ve okul takviye dersleri.',
   alternates: {
     canonical: 'https://www.yukselakademi.blog/hizmetler/izmir-matematik-ozel-ders',
   },
   openGraph: {
-    title: 'İzmir Birebir Matematik Ders & Mentörlük | Yüksel Akademi',
+    title: 'İzmir Birebir Matematik Ders & Mentörlük | Yükselİn Akademi',
     description: 'İzmir genelinde birebir matematik özel ders ve eğitim koçluğu. Dokuz Eylül Üniversitesi mezunu Gülçin Demir ile Bornova ve tüm İzmir\'de LGS, YKS ve okul takviye dersleri.',
     url: 'https://www.yukselakademi.blog/hizmetler/izmir-matematik-ozel-ders',
-    siteName: 'Yüksel Akademi',
+    siteName: 'Yükselİn Akademi',
     locale: 'tr_TR',
     type: 'website',
   }
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 
 export default function İzmirGenelHizmetPage() {
   const data = {
-    title: 'İzmir Birebir Matematik Ders & Mentörlük | Yüksel Akademi',
+    title: 'İzmir Birebir Matematik Ders & Mentörlük | Yükselİn Akademi',
     heroTitle: 'İzmir Geneli Birebir Matematik Dersleri ve Mentörlük',
     heroSubtitle: 'Sadece ders anlatımı değil, bütünsel eğitim koçluğu. Gülçin Demir ile hedeflerinizi tasarlayın, adım adım başarıya ulaşın.',
     curriculum: [
@@ -53,7 +53,7 @@ export default function İzmirGenelHizmetPage() {
     'name': 'İzmir Geneli Birebir Matematik Ders & Mentörlük',
     'provider': {
       '@type': 'LocalBusiness',
-      'name': 'Yüksel Akademi',
+      'name': 'Yükselİn Akademi',
       'image': 'https://www.yukselakademi.blog/images/logo.png',
       'address': {
         '@type': 'PostalAddress',
@@ -86,7 +86,7 @@ export default function İzmirGenelHizmetPage() {
               className={styles.mainText}
               dangerouslySetInnerHTML={{
                 __html: `
-                  <p>Matematik öğrenimi, yalnızca formüllerin ezberlenmesi ve test çözülmesinden ibaret olmayan, zihinsel bir gelişim sürecidir. Birçok öğrenci için derslerin karmaşıklığı veya sınavların yarattığı stres, bu süreçte ciddi engeller oluşturmaktadır. İzmir'de öğrencilerin bu engelleri aşmasını sağlamak amacıyla kurulan Yüksel Akademi, <strong>birebir matematik İzmir</strong> aramalarında öne çıkan, öğrenci odaklı bir eğitim modelidir. Birebir derslerimizde her öğrencinin kendi hızında ve tarzında öğrenmesini destekleyerek matematik fobisini tamamen ortadan kaldırıyoruz.</p>
+                  <p>Matematik öğrenimi, yalnızca formüllerin ezberlenmesi ve test çözülmesinden ibaret olmayan, zihinsel bir gelişim sürecidir. Birçok öğrenci için derslerin karmaşıklığı veya sınavların yarattığı stres, bu süreçte ciddi engeller oluşturmaktadır. İzmir'de öğrencilerin bu engelleri aşmasını sağlamak amacıyla kurulan Yükselİn Akademi, <strong>birebir matematik İzmir</strong> aramalarında öne çıkan, öğrenci odaklı bir eğitim modelidir. Birebir derslerimizde her öğrencinin kendi hızında ve tarzında öğrenmesini destekleyerek matematik fobisini tamamen ortadan kaldırıyoruz.</p>
                   
                   <h3>Gülçin Demir Rehberliğinde Profesyonel Mentörlük</h3>
                   <p>Dokuz Eylül Üniversitesi mezunu tecrübeli matematik öğretmenimiz <strong>Gülçin Demir</strong> rehberliğinde sunulan derslerimiz, sadece akademik bilgi aktarımı ile sınırlı kalmamaktadır. Eğitim sürecine entegre ettiğimiz mentörlük ve öğrenci koçluğu sistemi sayesinde, öğrencilerin zaman yönetimi, planlı çalışma, sınav kaygısı ile baş etme ve motivasyon yönetimi gibi konularda da gelişimlerini sağlıyoruz. <strong>İzmir YKS matematik özel ders</strong> ihtiyaçlarının yanı sıra LGS ve okul yazılılarına hazırlıkta da bu bütüncül mentörlük yaklaşımımızla fark yaratıyoruz.</p>
@@ -94,8 +94,8 @@ export default function İzmirGenelHizmetPage() {
                   <h3>Kişiye Özel Kaynak ve Haftalık Takip Sistemi</h3>
                   <p>Bornova başta olmak üzere İzmir'in dört bir yanından gelen öğrencilerimizle yürüttüğümüz bu süreçte, her öğrencimiz için ilk olarak detaylı bir seviye tespiti ve öğrenme stili analizi gerçekleştiriyoruz. Bu analizin ardından kişiye özel kaynak seçimini yapıyor ve haftalık ders programı hazırlıyoruz. Öğrencilerimizin her hafta çözdüğü soru sayıları, deneme netleri ve eksik oldukları konular dijital olarak takip edilmekte ve velilerimize düzenli raporlar halinde sunulmaktadır. Özellikle <strong>Bornova AYT matematik</strong> hazırlığında bu bireysel takip sistemi başarının anahtarı olmaktadır.</p>
                   
-                  <h3>Yüksel Akademi ile Matematikte Yeni Bir Dönem</h3>
-                  <p>Yüksel Akademi olarak amacımız, sadece sınav kazandırmak değil; analitik düşünebilen, problem çözme becerisi gelişmiş ve kendine güvenen bireyler yetiştirmektir. İzmir genelinde sunduğumuz birebir matematik ve mentörlük programlarımızla, öğrencimizin hedeflerine ulaşmasında en büyük destekçisi oluyoruz. Siz de çocuğunuzun geleceğine doğru bir yatırım yapmak ve onu başarıya ulaştıracak profesyonel bir yol arkadaşı bulmak istiyorsanız, bizimle hemen iletişime geçebilirsiniz.</p>
+                  <h3>Yükselİn Akademi ile Matematikte Yeni Bir Dönem</h3>
+                  <p>Yükselİn Akademi olarak amacımız, sadece sınav kazandırmak değil; analitik düşünebilen, problem çözme becerisi gelişmiş ve kendine güvenen bireyler yetiştirmektir. İzmir genelinde sunduğumuz birebir matematik ve mentörlük programlarımızla, öğrencimizin hedeflerine ulaşmasında en büyük destekçisi oluyoruz. Siz de çocuğunuzun geleceğine doğru bir yatırım yapmak ve onu başarıya ulaştıracak profesyonel bir yol arkadaşı bulmak istiyorsanız, bizimle hemen iletişime geçebilirsiniz.</p>
                 `
               }}
             />

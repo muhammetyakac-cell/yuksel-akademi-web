@@ -7,16 +7,16 @@ import WhyUs from '@/components/WhyUs/WhyUs';
 import Footer from '@/components/Footer/Footer';
 
 export const metadata: Metadata = {
-  title: "Yüksel Akademi | Gülçin Demir - İzmir Matematik Özel Ders",
+  title: "Yükselİn Akademi | Gülçin Demir - İzmir Matematik Özel Ders",
   description: "İlkokul, ortaokul ve lise matematik özel ders. Dokuz Eylül Üniversitesi mezunu Gülçin Demir ile LGS, YKS ve okul takviyelerinde başarıyı yakalayın.",
   alternates: {
     canonical: 'https://www.yukselakademi.blog',
   },
   openGraph: {
-    title: "Yüksel Akademi | Gülçin Demir - İzmir Matematik Özel Ders",
+    title: "Yükselİn Akademi | Gülçin Demir - İzmir Matematik Özel Ders",
     description: "İlkokul, ortaokul ve lise matematik özel ders. Dokuz Eylül Üniversitesi mezunu Gülçin Demir ile LGS, YKS ve okul takviyelerinde başarıyı yakalayın.",
     url: 'https://www.yukselakademi.blog',
-    siteName: 'Yüksel Akademi',
+    siteName: 'Yükselİn Akademi',
     locale: 'tr_TR',
     type: 'website',
   }
@@ -27,7 +27,7 @@ export default function Home() {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     '@id': 'https://www.yukselakademi.blog/#localbusiness',
-    'name': 'Yüksel Akademi',
+    'name': 'Yükselİn Akademi',
     'description': 'İlkokul, ortaokul ve lise matematik özel ders. Dokuz Eylül Üniversitesi İlköğretim Matematik Öğretmenliği mezunu Gülçin Demir ile matematikte yükselişe geçin.',
     'url': 'https://www.yukselakademi.blog',
     'telephone': '+905464749802',

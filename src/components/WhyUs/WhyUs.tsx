@@ -25,7 +25,7 @@ export default function WhyUs() {
       <div className={`container ${styles.content}`}>
         <div className={styles.header}>
           <div className={styles.badge}>FARKIMIZ</div>
-          <h2>Neden Yüksel Akademi?</h2>
+          <h2>Neden Yükselİn Akademi?</h2>
           <p className={styles.subtitle}>
             Klasik ezberci eğitimin ötesinde, matematiğin mantığını kavratan ve kalıcı başarı sağlayan ayrıcalıklarımız.
           </p>

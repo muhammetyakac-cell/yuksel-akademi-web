@@ -19,9 +19,9 @@ export default function Header() {
     <header className={`${styles.header} ${scrolled ? styles.scrolled : ''}`}>
       <div className={`container ${styles.headerContainer}`}>
         <Link href="/" className={styles.logo}>
-          <span className={styles.logoYk}>Y<span className={styles.gold}>K</span></span>
+          <span className={styles.logoYk}>Y<span className={styles.gold}>İ</span></span>
           <div className={styles.logoText}>
-            <span className={styles.title}>YÜKSEL AKADEMİ</span>
+            <span className={styles.title}>YÜKSELİN AKADEMİ</span>
             <span className={styles.subtitle}>MATEMATİK BLOĞU</span>
           </div>
         </Link>

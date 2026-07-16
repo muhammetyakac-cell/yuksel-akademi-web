@@ -117,22 +117,22 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
   if (!post) {
     return {
-      title: 'Blog Yazısı Bulunamadı | Yüksel Akademi',
+      title: 'Blog Yazısı Bulunamadı | Yükselİn Akademi',
       description: 'Yazı bulunamadı.'
     };
   }
 
   return {
-    title: `${post.title} | Yüksel Akademi`,
+    title: `${post.title} | Yükselİn Akademi`,
     description: post.excerpt,
     alternates: {
       canonical: `https://www.yukselakademi.blog/blog/${post.slug}`,
     },
     openGraph: {
-      title: `${post.title} | Yüksel Akademi`,
+      title: `${post.title} | Yükselİn Akademi`,
       description: post.excerpt,
       url: `https://www.yukselakademi.blog/blog/${post.slug}`,
-      siteName: 'Yüksel Akademi',
+      siteName: 'Yükselİn Akademi',
       locale: 'tr_TR',
       type: 'article',
       images: [
@@ -170,7 +170,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     },
     'publisher': {
       '@type': 'Organization',
-      'name': 'Yüksel Akademi',
+      'name': 'Yükselİn Akademi',
       'logo': {
         '@type': 'ImageObject',
         'url': `${baseUrl}/images/logo.png`

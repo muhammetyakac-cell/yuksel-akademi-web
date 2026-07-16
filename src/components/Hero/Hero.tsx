@@ -11,7 +11,7 @@ export default function Hero() {
       
       <div className={`container ${styles.content}`}>
         <div className={styles.textContent}>
-          <div className={styles.badge}>Yüksel Akademi Matematik Bloğu</div>
+          <div className={styles.badge}>Yükselİn Akademi Matematik Bloğu</div>
           <h1 className="animate-fade-in-up">
             Matematikte <span className="text-gradient">Yükselmeye</span> Hazır Mısınız?
           </h1>

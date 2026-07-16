@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Yüksel Akademi | Gülçin Demir - Matematik Özel Ders",
+  title: "Yükselİn Akademi | Gülçin Demir - Matematik Özel Ders",
   description: "İlkokul, ortaokul ve lise matematik özel ders. Dokuz Eylül Üniversitesi İlköğretim Matematik Öğretmenliği mezunu Gülçin Demir ile matematikte yükselişe geçin.",
 };
 
