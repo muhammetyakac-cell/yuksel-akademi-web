@@ -78,7 +78,7 @@ export default async function BlogPage() {
       <main className={styles.blogMain}>
         <div className={styles.hero}>
           <div className="container">
-            <h1>Matematik <span className="text-gradient">Bloğu</span></h1>
+            <h1>Matematik <span className="text-gradient">Blogu</span></h1>
             <p>Eğitim, sınav stratejileri ve matematiğe dair her şey.</p>
           </div>
         </div>

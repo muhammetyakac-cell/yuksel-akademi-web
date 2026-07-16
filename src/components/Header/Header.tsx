@@ -22,7 +22,7 @@ export default function Header() {
           <span className={styles.logoYk}>Y<span className={styles.gold}>A</span></span>
           <div className={styles.logoText}>
             <span className={styles.title}>YÜKSELİN AKADEMİ</span>
-            <span className={styles.subtitle}>MATEMATİK BLOĞU</span>
+            <span className={styles.subtitle}>MATEMATİK BLOGU</span>
           </div>
         </Link>
         

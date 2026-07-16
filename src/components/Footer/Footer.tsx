@@ -10,7 +10,7 @@ export default function Footer() {
             <span className={styles.logoYk}>Y<span className={styles.gold}>A</span></span>
             <div className={styles.logoText}>
               <span className={styles.title}>YÜKSELİN AKADEMİ</span>
-              <span className={styles.subtitle}>MATEMATİK BLOĞU</span>
+              <span className={styles.subtitle}>MATEMATİK BLOGU</span>
             </div>
           </Link>
           <p className={styles.brandDesc}>
@@ -49,7 +49,7 @@ export default function Footer() {
       
       <div className={styles.bottom}>
         <div className="container">
-          <p>&copy; {new Date().getFullYear()} Yükselİn Akademi Matematik Bloğu. Tüm hakları saklıdır.</p>
+          <p>&copy; {new Date().getFullYear()} Yükselİn Akademi Matematik Blogu. Tüm hakları saklıdır.</p>
         </div>
       </div>
     </footer>
