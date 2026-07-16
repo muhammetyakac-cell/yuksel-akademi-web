@@ -10,7 +10,7 @@ export default function About() {
             <div className={styles.teacherImage}></div>
             
             <div className={styles.experienceBadge}>
-              <span className={styles.years}>5+</span>
+              <span className={styles.years}>3+</span>
               <span className={styles.text}>Yıllık<br/>Tecrübe</span>
             </div>
           </div>
