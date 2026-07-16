@@ -1,0 +1,88 @@
+.whatsappFloat {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 60px;
+  height: 60px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 0 4px 14px rgba(37, 211, 102, 0.4);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  animation: pulse 2s infinite;
+}
+
+.whatsappIcon {
+  width: 32px;
+  height: 32px;
+}
+
+.tooltip {
+  position: absolute;
+  right: 75px;
+  background: rgba(30, 41, 59, 0.95);
+  backdrop-filter: blur(8px);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transform: translateX(10px);
+}
+
+.whatsappFloat:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
+  background-color: #20ba5a;
+  animation: none;
+}
+
+.whatsappFloat:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0);
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 4px 14px rgba(37, 211, 102, 0.4);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 4px 25px rgba(37, 211, 102, 0.6);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 4px 14px rgba(37, 211, 102, 0.4);
+  }
+}
+
+@media (max-width: 768px) {
+  .whatsappFloat {
+    bottom: 1.5rem;
+    right: 1.5rem;
+    width: 50px;
+    height: 50px;
+  }
+
+  .whatsappIcon {
+    width: 26px;
+    height: 26px;
+  }
+  
+  .tooltip {
+    display: none; /* Hide tooltip on mobile for cleaner UX */
+  }
+}

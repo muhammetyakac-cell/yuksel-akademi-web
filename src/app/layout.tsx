@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import WhatsAppButton from "@/components/WhatsAppButton/WhatsAppButton";
 
 export const metadata: Metadata = {
   title: "Yükselİn Akademi | Gülçin Demir - Matematik Özel Ders",
@@ -15,6 +16,7 @@ export default function RootLayout({
     <html lang="tr">
       <body>
         {children}
+        <WhatsAppButton />
       </body>
     </html>
   );
